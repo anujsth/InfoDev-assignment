@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto";
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-section {
+  margin-left: 120px;
+}
+.navbar-section .navbar .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar-section .navbar .container-fluid .navbar-brand {
+  font-family: "Nunito", Arial;
+  font-weight: 600;
+  width: 47px;
+  margin-left: 16px;
+}
+.navbar-section .navbar .container-fluid .collapse .navbar-nav {
+  margin-left: 39.9375rem;
+}
+.navbar-section .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.building-image {
+  width: 100vw;
+  height: 700px;
+}
+.building-image .image {
+  width: 1519.2px;
+  height: 700px;
+}
+
+.section-title {
+  font-family: "Roboto";
+  margin-left: 120px;
+  margin-top: 72px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.section-card {
+  margin-top: 24px;
+  margin-left: 120px;
+  margin-bottom: 120px;
+}
+
+.section-card {
+  width: 1280px;
+  height: 202px;
+  background-color: #ffffff;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border: none;
+  margin-bottom: 0;
+}
+.card-body .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(26, 135, 230, 0.16);
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 30px;
+}
+.card-body .card-text {
+  padding: 25px 15px 26px 15px;
+  color: #666666;
+  font-size: 14px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.row-container {
+  width: 1280px;
+  padding-left: 120px;
+}
+.row-container .para-1-title {
+  margin-left: 120px;
+  height: 325px;
+  width: 500px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+.row-container .para-1-title .para-1 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 25px;
+}
+.row-container .para-1-title .para-2,
+.row-container .para-1-title .end-paragraph,
+.row-container .para-1-title .end-time {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: -0.015em;
+}
+.row-container .pic-para {
+  height: 325px;
+  width: 500px;
+}
+.row-container .pic-para .pic-laptop {
+  height: 305px;
+  width: 485px;
+  margin-left: 146px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 72px;
+  margin-bottom: 14px;
+  margin-right: 120px;
+}
+.gallery .gallery-title {
+  font-family: "Roboto";
+  margin-left: 120px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.gallery .gallery-date {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 13.33px;
+  color: #666666;
+}
+
+.gallery-container {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.gallery-container .container-gallery {
+  display: grid;
+}
+.gallery-container .container-gallery .gallery-semi {
+  justify-content: space-between;
+}
+.gallery-container .container-gallery .gallery-semi .gallery-image {
+  height: 190px;
+  width: 293px;
+}
+
+.end-section {
+  margin-left: 123px;
+  height: 179px;
+  margin-bottom: 585px;
+}
+.end-section .first-part {
+  border: 1px solid #2159ab;
+  vertical-align: center;
+}
+.end-section .first-part .profile-desc {
+  padding-left: 10px;
+  font-family: "Nunito";
+  font-size: 14px;
+  color: #000000;
+}
+.end-section .second-part {
+  border: 1px solid #2159ab;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.end-section .second-part .end-paragraph-title {
+  margin-bottom: 0px;
+  padding: 16px 16px 16px 16px;
+  font-family: "Roboto", Arial;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 19px;
+}
+.end-section .second-part .end-paragraph {
+  margin-bottom: 0px;
+  padding: 0px 16px 27px 16px;
+  line-height: 21px;
+}
+.end-section .second-part .end-time {
+  font-size: 12px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+.third-part {
+  border: 1px solid #2159ab;
+}
+.third-part .end-time-2 {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #666666;
+  letter-spacing: -0.015em;
+}
+.third-part .final-time {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.footer-copyright {
+  background-color: rgba(26, 135, 230, 0.16);
+  margin-left: 120px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  height: 56px;
+  color: #666666;
+}
+
+.body-div {
+  padding: 0px 120px 0px 0px;
+}/*# sourceMappingURL=style.css.map */
